@@ -1,6 +1,7 @@
 import { Header } from "@/sections/Header";
 import { HeroSection } from "@/sections/Hero";
 import { TapeSection } from "@/sections/Tape";
+import { ContactSection } from "@/sections/Contact";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <TapeSection />
+      <ContactSection />
     </div>
   );
 }
